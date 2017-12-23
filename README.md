@@ -1,5 +1,4 @@
 # Usage
-
 A (mac|watch|i|tv)OS Information Swift Wrapper Library
 
 ## Installation
@@ -12,12 +11,6 @@ github "shogo4405/Usage" ~> 1.0.0
 
 ## License
 BSD-3-Clause
-
-## Donation
-Bitcoin
-```txt
-1CWA9muX36QKBdJiRQJGpu2HvchfEpJbWr
-```
 
 ## Information
 |-|Swift|
