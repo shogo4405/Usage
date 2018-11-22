@@ -2,7 +2,7 @@ import XCTest
 
 final class UsageTest: XCTestCase {
     func testCPU() {
-        let _ = Usage.cpu()
+        _ = Usage.cpu()
         sleep(1)
         let info = Usage.cpu()
         print(info?.nice)
