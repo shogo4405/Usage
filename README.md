@@ -2,11 +2,11 @@
 A (mac|watch|i|tv)OS Information Swift Wrapper Library
 
 ## Installation
-*Please set up your project Swift 4.0.*
+*Please set up your project Swift 5.0.*
 
 ### Carthage
 ```
-github "shogo4405/Usage" ~> 1.0.0
+github "shogo4405/Usage" ~> 1.1.0
 ```
 
 ## License
