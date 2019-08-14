@@ -2,35 +2,34 @@ import Foundation
 
 extension Usage {
     public class Monitor {
-        let fileHandler: FileHandle
-
+        public let url: URL
         public private(set) var running: Bool = false
         private let queue: DispatchQueue = .init(label: "Usage.Monitor.queue")
         private var timeBase: mach_timebase_info = mach_timebase_info()
+        private let fileHandler: FileHandle
 
         public init(_ forWritingTo: URL) throws {
             mach_timebase_info(&timeBase)
+            url = forWritingTo
             fileHandler = try .init(forWritingTo: forWritingTo)
         }
 
         public func startRunning(_ hz: Double) {
+            guard !self.running else {
+                return
+            }
+            running = true
             queue.async {
-                guard !self.running else {
-                    return
-                }
-                self.running = true
                 self.run(hz)
             }
         }
 
         public func stopRunning() {
-            queue.async {
-                guard self.running else {
-                    return
-                }
-                self.running = false
-                self.fileHandler.closeFile()
+            guard running else {
+                return
             }
+            running = false
+            fileHandler.closeFile()
         }
 
         func run(_ hz: Double) {
@@ -38,7 +37,7 @@ extension Usage {
                 let startTime = mach_absolute_time()
                 exectute()
                 let diff = (mach_absolute_time() - startTime)
-                Thread.sleep(forTimeInterval: (1 / hz) * 1000000)
+                Thread.sleep(forTimeInterval: 1 / hz)
             }
         }
 

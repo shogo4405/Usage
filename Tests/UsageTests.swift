@@ -1,4 +1,5 @@
 import XCTest
+import Usage
 
 final class UsageTest: XCTestCase {
     func testCPU() {

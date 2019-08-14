@@ -8,37 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		295632FC1FEE47BD007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295632F81FEE47AB007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		295632FD1FEE49CC007A8FE0 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295632FF1FEE4FC5007A8FE0 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
 		295633231FEE536F007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295633151FEE536F007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2956333F1FEE5390007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295633311FEE538F007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		295633471FEE5406007A8FE0 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295633481FEE5406007A8FE0 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		2956334A1FEE540A007A8FE0 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		2956334B1FEE540A007A8FE0 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
 		295633531FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */; };
-		295633581FEE5542007A8FE0 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295633591FEE5544007A8FE0 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		2956335B1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		2956335C1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		2956335D1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		2956335E1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		295633601FEE92EF007A8FE0 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
-		295633611FEE92EF007A8FE0 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
-		295633621FEE92EF007A8FE0 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
-		295633631FEE92EF007A8FE0 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
 		2956336D1FEE9756007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2956336B1FEE9756007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		295633721FEE9A04007A8FE0 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		295633731FEE9A06007A8FE0 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295633741FEE9A09007A8FE0 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		295633751FEE9A0B007A8FE0 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
 		2956337A1FEEA0B1007A8FE0 /* UsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295633761FEEA0B1007A8FE0 /* UsageTests.swift */; };
 		2956337D1FEEAA6A007A8FE0 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2956337B1FEEAA6A007A8FE0 /* LICENSE.md */; };
 		2956337E1FEEAA6A007A8FE0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2956337C1FEEAA6A007A8FE0 /* README.md */; };
-		29FD1B592301AD580095A0BE /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
-		29FD1B5A2301AD580095A0BE /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
-		29FD1B5B2301AD580095A0BE /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
-		29FD1B5C2301AD580095A0BE /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
+		295D0ECD2303ECED00120A70 /* Usage.MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D0ECC2303ECED00120A70 /* Usage.MonitorTests.swift */; };
+		295D0ECF2303EDF700120A70 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
+		295D0ED02303EDF800120A70 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
+		295D0ED12303EDF900120A70 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
+		295D0ED22303EDFA00120A70 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335F1FEE92EF007A8FE0 /* Usage.swift */; };
+		295D0ED32303EDFE00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
+		295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
+		295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
+		295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
+		295D0ED72303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
+		295D0ED82303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
+		295D0ED92303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
+		295D0EDA2303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
+		295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
+		295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
+		295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
+		295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
+		295D0EDF2303EE0E00120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
+		295D0EE02303EE1000120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
+		295D0EE12303EE1000120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
+		295D0EE22303EE1100120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
+		295D0EE42303EF0000120A70 /* Usage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2956332F1FEE538F007A8FE0 /* Usage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +62,7 @@
 		295633761FEEA0B1007A8FE0 /* UsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTests.swift; sourceTree = "<group>"; };
 		2956337B1FEEAA6A007A8FE0 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		2956337C1FEEAA6A007A8FE0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		295D0ECC2303ECED00120A70 /* Usage.MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.MonitorTests.swift; sourceTree = "<group>"; };
 		29FD1B582301AD580095A0BE /* Usage.Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.Monitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295D0EE42303EF0000120A70 /* Usage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +119,7 @@
 				295633131FEE536F007A8FE0 /* Usage.framework */,
 				2956332F1FEE538F007A8FE0 /* Usage.framework */,
 				295633691FEE9756007A8FE0 /* Usage.framework */,
+				295D0EE32303EF0000120A70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +178,7 @@
 			children = (
 				295633541FEE54FB007A8FE0 /* Info.plist */,
 				295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */,
+				295D0ECC2303ECED00120A70 /* Usage.MonitorTests.swift */,
 				295633761FEEA0B1007A8FE0 /* UsageTests.swift */,
 			);
 			path = Tests;
@@ -189,6 +191,13 @@
 				2956336C1FEE9756007A8FE0 /* Info.plist */,
 			);
 			path = watchOS;
+			sourceTree = "<group>";
+		};
+		295D0EE32303EF0000120A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +354,7 @@
 					};
 					2956334F1FEE54FB007A8FE0 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
 					295633681FEE9756007A8FE0 = {
@@ -422,11 +431,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2956335B1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */,
-				295632FD1FEE49CC007A8FE0 /* MachTaskBasicInfo.swift in Sources */,
-				295632FF1FEE4FC5007A8FE0 /* MachThreadBasicInfo.swift in Sources */,
-				29FD1B592301AD580095A0BE /* Usage.Monitor.swift in Sources */,
-				295633601FEE92EF007A8FE0 /* Usage.swift in Sources */,
+				295D0EE22303EE1100120A70 /* HostCPULoadInfo.swift in Sources */,
+				295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */,
+				295D0ED22303EDFA00120A70 /* Usage.swift in Sources */,
+				295D0EDA2303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */,
+				295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +443,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2956335C1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */,
-				295633471FEE5406007A8FE0 /* MachTaskBasicInfo.swift in Sources */,
-				2956334A1FEE540A007A8FE0 /* MachThreadBasicInfo.swift in Sources */,
-				29FD1B5A2301AD580095A0BE /* Usage.Monitor.swift in Sources */,
-				295633611FEE92EF007A8FE0 /* Usage.swift in Sources */,
+				295D0EE12303EE1000120A70 /* HostCPULoadInfo.swift in Sources */,
+				295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
+				295D0ED12303EDF900120A70 /* Usage.swift in Sources */,
+				295D0ED92303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */,
+				295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,11 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2956335D1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */,
-				295633481FEE5406007A8FE0 /* MachTaskBasicInfo.swift in Sources */,
-				2956334B1FEE540A007A8FE0 /* MachThreadBasicInfo.swift in Sources */,
-				29FD1B5B2301AD580095A0BE /* Usage.Monitor.swift in Sources */,
-				295633621FEE92EF007A8FE0 /* Usage.swift in Sources */,
+				295D0EE02303EE1000120A70 /* HostCPULoadInfo.swift in Sources */,
+				295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
+				295D0ED02303EDF800120A70 /* Usage.swift in Sources */,
+				295D0ED82303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */,
+				295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,11 +467,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295633581FEE5542007A8FE0 /* MachTaskBasicInfo.swift in Sources */,
-				295633631FEE92EF007A8FE0 /* Usage.swift in Sources */,
-				295633591FEE5544007A8FE0 /* MachThreadBasicInfo.swift in Sources */,
+				295D0ECD2303ECED00120A70 /* Usage.MonitorTests.swift in Sources */,
 				2956337A1FEEA0B1007A8FE0 /* UsageTests.swift in Sources */,
-				2956335E1FEE8649007A8FE0 /* HostCPULoadInfo.swift in Sources */,
 				295633531FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,11 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295633731FEE9A06007A8FE0 /* MachTaskBasicInfo.swift in Sources */,
-				295633741FEE9A09007A8FE0 /* MachThreadBasicInfo.swift in Sources */,
-				295633721FEE9A04007A8FE0 /* HostCPULoadInfo.swift in Sources */,
-				29FD1B5C2301AD580095A0BE /* Usage.Monitor.swift in Sources */,
-				295633751FEE9A0B007A8FE0 /* Usage.swift in Sources */,
+				295D0EDF2303EE0E00120A70 /* HostCPULoadInfo.swift in Sources */,
+				295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */,
+				295D0ECF2303EDF700120A70 /* Usage.swift in Sources */,
+				295D0ED72303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */,
+				295D0ED32303EDFE00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +708,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Platforms/macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shogo4405.Usage;
 				PRODUCT_NAME = Usage;
 				SDKROOT = macosx;
@@ -725,7 +731,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Platforms/macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shogo4405.Usage;
 				PRODUCT_NAME = Usage;
 				SDKROOT = macosx;
@@ -742,12 +748,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shogo4405.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -758,12 +765,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shogo4405.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
