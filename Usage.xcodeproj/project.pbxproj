@@ -24,24 +24,15 @@
 		295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
 		295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
 		295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
-		295D0ED72303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		295D0ED82303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		295D0ED92303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
-		295D0EDA2303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */; };
 		295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
 		295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
 		295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
 		295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295D0EDF2303EE0E00120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		295D0EE02303EE1000120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		295D0EE12303EE1000120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
-		295D0EE22303EE1100120A70 /* HostCPULoadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */; };
 		295D0EE42303EF0000120A70 /* Usage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2956332F1FEE538F007A8FE0 /* Usage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachTaskBasicInfo.swift; path = Sources/MachTaskBasicInfo.swift; sourceTree = SOURCE_ROOT; };
-		295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachThreadBasicInfo.swift; path = Sources/MachThreadBasicInfo.swift; sourceTree = SOURCE_ROOT; };
 		295632DB1FEE461C007A8FE0 /* Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		295632F81FEE47AB007A8FE0 /* Usage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usage.h; sourceTree = "<group>"; };
 		295632F91FEE47AB007A8FE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +45,6 @@
 		295633501FEE54FB007A8FE0 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachTaskBasicInfoTest.swift; sourceTree = "<group>"; };
 		295633541FEE54FB007A8FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HostCPULoadInfo.swift; path = Sources/HostCPULoadInfo.swift; sourceTree = SOURCE_ROOT; };
 		2956335F1FEE92EF007A8FE0 /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Usage.swift; path = Sources/Usage.swift; sourceTree = SOURCE_ROOT; };
 		295633691FEE9756007A8FE0 /* Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2956336B1FEE9756007A8FE0 /* Usage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usage.h; sourceTree = "<group>"; };
@@ -126,9 +116,7 @@
 		295632C81FEE39C8007A8FE0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2956335A1FEE8649007A8FE0 /* HostCPULoadInfo.swift */,
 				295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */,
-				295632D21FEE4338007A8FE0 /* MachThreadBasicInfo.swift */,
 				29FD1B582301AD580095A0BE /* Usage.Monitor.swift */,
 				2956335F1FEE92EF007A8FE0 /* Usage.swift */,
 			);
@@ -431,10 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EE22303EE1100120A70 /* HostCPULoadInfo.swift in Sources */,
 				295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED22303EDFA00120A70 /* Usage.swift in Sources */,
-				295D0EDA2303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */,
 				295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,10 +429,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EE12303EE1000120A70 /* HostCPULoadInfo.swift in Sources */,
 				295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED12303EDF900120A70 /* Usage.swift in Sources */,
-				295D0ED92303EE0500120A70 /* MachThreadBasicInfo.swift in Sources */,
 				295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,10 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EE02303EE1000120A70 /* HostCPULoadInfo.swift in Sources */,
 				295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED02303EDF800120A70 /* Usage.swift in Sources */,
-				295D0ED82303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */,
 				295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,10 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EDF2303EE0E00120A70 /* HostCPULoadInfo.swift in Sources */,
 				295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ECF2303EDF700120A70 /* Usage.swift in Sources */,
-				295D0ED72303EE0400120A70 /* MachThreadBasicInfo.swift in Sources */,
 				295D0ED32303EDFE00120A70 /* Usage.Monitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

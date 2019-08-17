@@ -8,8 +8,9 @@ final class UsageMonitorTest: XCTestCase {
         guard let path = URL(string: stats) else {
             return
         }
+        print(stats)
         let monitor: Usage.Monitor? = try? .init(path)
-        monitor?.startRunning(10)
+        monitor?.startRunning(1)
         sleep(10)
         monitor?.stopRunning()
     }

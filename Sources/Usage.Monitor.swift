@@ -36,17 +36,18 @@ extension Usage {
             while running {
                 let startTime = mach_absolute_time()
                 exectute()
-                let diff = (mach_absolute_time() - startTime)
-                Thread.sleep(forTimeInterval: 1 / hz)
+                let elapsed = (mach_absolute_time() - startTime) * UInt64(timeBase.numer) / UInt64(timeBase.denom)
+                Thread.sleep(forTimeInterval: 1 / hz - Double(elapsed) / 1000000000)
             }
         }
 
         func exectute() {
-            guard let cpu = Usage.cpu(), let memory = Usage.memory() else {
+            guard let memory = Usage.memory() else {
                 return
             }
+            let usage = Usage.cpu()
             let timestamp = Date().timeIntervalSince1970
-            let line = "\(timestamp),\(cpu.user),\(cpu.system),\(cpu.nice),\(cpu.idle),\(memory)\n"
+            let line = "\(timestamp),\(usage.user),\(usage.system),\(usage.idle),\(usage.nice),\(memory)\n"
             if let line = line.data(using: .utf8) {
                 fileHandler.write(line)
             }
