@@ -10,7 +10,6 @@
 		295632FC1FEE47BD007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295632F81FEE47AB007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		295633231FEE536F007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295633151FEE536F007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2956333F1FEE5390007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 295633311FEE538F007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		295633531FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */; };
 		2956336D1FEE9756007A8FE0 /* Usage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2956336B1FEE9756007A8FE0 /* Usage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2956337A1FEEA0B1007A8FE0 /* UsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295633761FEEA0B1007A8FE0 /* UsageTests.swift */; };
 		2956337D1FEEAA6A007A8FE0 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2956337B1FEEAA6A007A8FE0 /* LICENSE.md */; };
@@ -24,15 +23,10 @@
 		295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
 		295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
 		295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD1B582301AD580095A0BE /* Usage.Monitor.swift */; };
-		295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
-		295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */; };
 		295D0EE42303EF0000120A70 /* Usage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2956332F1FEE538F007A8FE0 /* Usage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MachTaskBasicInfo.swift; path = Sources/MachTaskBasicInfo.swift; sourceTree = SOURCE_ROOT; };
 		295632DB1FEE461C007A8FE0 /* Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		295632F81FEE47AB007A8FE0 /* Usage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usage.h; sourceTree = "<group>"; };
 		295632F91FEE47AB007A8FE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +37,6 @@
 		295633311FEE538F007A8FE0 /* Usage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usage.h; sourceTree = "<group>"; };
 		295633321FEE538F007A8FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295633501FEE54FB007A8FE0 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachTaskBasicInfoTest.swift; sourceTree = "<group>"; };
 		295633541FEE54FB007A8FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2956335F1FEE92EF007A8FE0 /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Usage.swift; path = Sources/Usage.swift; sourceTree = SOURCE_ROOT; };
 		295633691FEE9756007A8FE0 /* Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +109,6 @@
 		295632C81FEE39C8007A8FE0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				295632D01FEE3B5D007A8FE0 /* MachTaskBasicInfo.swift */,
 				29FD1B582301AD580095A0BE /* Usage.Monitor.swift */,
 				2956335F1FEE92EF007A8FE0 /* Usage.swift */,
 			);
@@ -165,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				295633541FEE54FB007A8FE0 /* Info.plist */,
-				295633521FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift */,
 				295D0ECC2303ECED00120A70 /* Usage.MonitorTests.swift */,
 				295633761FEEA0B1007A8FE0 /* UsageTests.swift */,
 			);
@@ -419,7 +410,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EDE2303EE0B00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED22303EDFA00120A70 /* Usage.swift in Sources */,
 				295D0ED62303EE0000120A70 /* Usage.Monitor.swift in Sources */,
 			);
@@ -429,7 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EDD2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED12303EDF900120A70 /* Usage.swift in Sources */,
 				295D0ED52303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
@@ -439,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EDC2303EE0A00120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ED02303EDF800120A70 /* Usage.swift in Sources */,
 				295D0ED42303EDFF00120A70 /* Usage.Monitor.swift in Sources */,
 			);
@@ -451,7 +439,6 @@
 			files = (
 				295D0ECD2303ECED00120A70 /* Usage.MonitorTests.swift in Sources */,
 				2956337A1FEEA0B1007A8FE0 /* UsageTests.swift in Sources */,
-				295633531FEE54FB007A8FE0 /* MachTaskBasicInfoTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +446,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295D0EDB2303EE0900120A70 /* MachTaskBasicInfo.swift in Sources */,
 				295D0ECF2303EDF700120A70 /* Usage.swift in Sources */,
 				295D0ED32303EDFE00120A70 /* Usage.Monitor.swift in Sources */,
 			);

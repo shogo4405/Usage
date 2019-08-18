@@ -3,6 +3,7 @@ import Foundation
 public struct Usage {
     static let machHost = mach_host_self()
     static let hostCPULoadInfoCount = mach_msg_type_number_t(MemoryLayout<host_cpu_load_info>.size / MemoryLayout<integer_t>.size)
+    static let machTaskBasicInfoCount = mach_msg_type_number_t(MemoryLayout<mach_task_basic_info>.size) / 4
 
     private static var loadPrevious = host_cpu_load_info()
 
@@ -11,7 +12,6 @@ public struct Usage {
         case KiB = 1024
         case MiB = 1048576
     }
-
 
     public static func cpu() -> (system : Double, user: Double, idle: Double, nice: Double) {
         let load = Usage.hostCPULoadInfo()
@@ -37,10 +37,19 @@ public struct Usage {
         return info
     }
 
-    public static func memory(unit: Unit = .none) -> UInt64? {
-        guard let info: MachTaskBasicInfo = MachTaskBasicInfo.current() else {
-            return nil
+    public static func machTaskBasicInfo() -> mach_task_basic_info {
+        var count: natural_t = Usage.machTaskBasicInfoCount
+        var info: mach_task_basic_info = mach_task_basic_info()
+        _ = withUnsafeMutablePointer(to: &info) {
+            $0.withMemoryRebound(to: integer_t.self, capacity: 1) {
+                task_info(mach_task_self_, task_flavor_t(MACH_TASK_BASIC_INFO), $0, &count)
+            }
         }
-        return info.residentSize / unit.rawValue
+        return info
+    }
+
+    public static func memory(unit: Unit = .none) -> UInt64? {
+        let info = machTaskBasicInfo()
+        return info.resident_size / unit.rawValue
     }
 }
