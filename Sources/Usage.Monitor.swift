@@ -2,6 +2,8 @@ import Foundation
 
 extension Usage {
     public class Monitor {
+        private static let header = "Timestamp,User,System,Idle,Nice,Memory"
+
         public let url: URL
         public private(set) var running: Bool = false
         private let queue: DispatchQueue = .init(label: "Usage.Monitor.queue")
@@ -33,6 +35,9 @@ extension Usage {
         }
 
         func run(_ hz: Double) {
+            if let line = Monitor.header.data(using: .utf8) {
+                fileHandler.write(line)
+            }
             while running {
                 let startTime = mach_absolute_time()
                 exectute()
