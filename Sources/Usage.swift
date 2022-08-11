@@ -13,7 +13,7 @@ public struct Usage {
         case MiB = 1048576
     }
 
-    public static func cpu() -> (system : Double, user: Double, idle: Double, nice: Double) {
+    public static func cpu() -> (system: Double, user: Double, idle: Double, nice: Double) {
         let load = Usage.hostCPULoadInfo()
         defer {
             loadPrevious = load
